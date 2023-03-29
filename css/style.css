@@ -1,0 +1,1106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+list-style: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+body{
+    background-image: url(../images/1.jpg);
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(180, 175, 198);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.3;
+    color: #fff;
+  } 
+  /* --------------common btn-------------- */
+  .btn{
+    font-family: 'Poppins', sans-serif;
+    color: #fff !important;
+    display: inline-block;
+    background-color: #00c0ff;
+    padding: 18px 43px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+    
+    
+}
+.btn span{
+    color: #fff;
+    transition: 0.4s;
+}
+.btn:hover span{
+    color: #000;
+}
+.btn::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    left: 0;
+    bottom: 0;
+    transition: 0.4s;
+    z-index: -1;
+}
+.btn:hover::after{
+    height: 100%;
+    color: #000;
+
+}
+/* -----------------------common  css End----------------------- */
+
+ /* -----------------------navbar  css start----------------------- */
+ #header {
+     padding: 20px 20px;
+     background: #1e134500 ;
+     transition: 0.6s;
+     position: fixed;
+     width: 100%;
+     z-index: 999;
+     left: 0;
+     top:0;
+
+    }
+    #header.sticky{
+        background: #1e1345 ;
+        padding: 18px 20px;
+
+
+        
+    }
+    #header.sticky .logo img{
+        scale: .9;
+    }
+#header .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#header .main .header_link{
+    display: flex;
+}
+#header .main .logo img{
+    width: 200px;
+    transition: 0.6s;
+}
+#header .main .menu{
+    text-align: right;
+    margin: auto 0;
+
+}
+#header .main .icon {
+	text-align: right;
+	margin: auto 0;
+}
+
+#header .main .menu ul li {
+   margin-right: 40px;
+   display: inline-block;
+   font-family: 'Poppins', sans-serif;
+   text-transform: capitalize;
+   font-size: 18px;
+   list-style: none;
+   transition: 0.4s;
+}
+#header .main .menu ul li a{
+    color: rgb(255, 255, 225);
+    transition: 0.4s;
+
+}
+
+#header .main .menu ul li a:hover{
+    color: #00c0ff;
+}
+#header .main .menu ul span li a{
+    color: #00c0ff;
+
+}
+#header .main .icon{
+    position: relative;
+}
+    #header .main .icon::after{
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 2px;
+    left: 0;
+    top: 7px;
+    background: #fff;
+}
+#header .main .icon i{
+    color: rgb(255, 255, 225);
+    padding-left: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#header .main .icon i:hover{
+    color: #00c0ff;
+}
+/* -----------------dropdown css start----------------- */
+
+
+#header .main .icon_bar i{
+    cursor: pointer;
+    display: none;
+    color:#fff;
+}
+#header .main .dropdown_manu{
+    display:block;
+    background: #1e1345;
+    width: 150px;
+    height: 0px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    transition: .2s ease-in-out;
+    overflow: hidden;
+    position: absolute;
+}
+.open{
+    height: 200px !important;
+
+}
+#header .main .dropdown_manu ul li{
+    display: block;
+    margin-right: 0px;
+}
+ /* -----------------------navbar css end----------------------- */
+
+ /* -----------------------details css start----------------------- */
+
+#details{
+    margin-top: 100px;
+}
+#details .main{
+    display: flex;
+}
+#details .main .text {
+    width: 50%;
+   
+}
+#details .text6 {
+    width: 50%;
+}
+#details .text h1{
+    color: #fff;
+    margin-top: 150px;
+    font-size: 120px;  
+}
+
+#details .text h4 {
+    margin-bottom: 40px;
+	color: #fff;
+	font-size: 23px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+#details .text span{
+    color: #00c0ff;
+}
+#details .text .button .btn span{
+    color: #fff;
+    transition: .4s;
+}
+#details .text .button .btn:hover span{
+    color: #000;
+}
+
+ /* -----------------------details css end----------------------- */
+
+ /* -----------------------foliox section2 css start----------------------- */
+#foliox_section2 .main{
+    margin-bottom: 123px;
+}
+#foliox_section2 .main ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0 0 -25px;
+}
+#foliox_section2 .main ul li{
+    margin: 0 0 50px 0;
+    padding-left: 25px;
+    width: 33.33333333333%;
+}
+#foliox_section2 .main .list_inner{
+    width: 100%;
+    height: 100%;
+    clear: both;
+    float: left;
+    position: relative;
+    background-color: #3a2b71;
+    border-radius: 10px;
+    padding: 60px;
+}
+#foliox_section2 .main .list_inner i{
+    font-size: 65px;
+    margin-bottom: 30px ;
+    color: #00c0ff;
+}
+#foliox_section2 .main .list_inner h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#foliox_section2 .main .list_inner p{
+font-size: 18px;
+font-weight: 400;
+color: #b4afc6;
+font-family: "Open Sans", sans-serif;
+line-height: 30px;
+}
+
+
+ /* -----------------------foliox section2 css end----------------------- */
+ /* -----------------------main title section css start----------------------- */
+    .main_title{
+     max-width: 50%;
+     height: auto;
+     margin: 0 auto;
+     text-align: center !important;
+    }
+    .main_title span{
+        font-size: 21px;
+        color: #00c0ff;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+    }
+    .main_title h3{
+        font-size: 48px;
+        color: #fff;
+        line-height: 1.3;
+        font-family: "Poppins", sans-serif;
+
+    }
+/* -----------------------main title section css End----------------------- */
+
+    /* -----------------------About section css start----------------------- */
+    #about_section{
+        margin-bottom: 245px;
+    }
+    #about_section .about_wraper{
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+        clear: both;
+    }
+    #about_section .about_wraper .item_left{
+        width: 50%;
+        position: relative;
+        top: 30px;
+        text-align: end;
+    }
+    #about_section .about_wraper .item_left .big_image{
+        text-align: right;
+        position: relative;
+        display: inline-block;
+    }
+    #about_section .about_wraper .item_left .big_image span i {
+        padding: 35px;
+        position: absolute;
+        background: #00c0ff;
+        top: 24%;
+        left: -35%;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 63px;
+        text-align: center;
+        margin: auto 0;
+
+    }
+    #about_section .about_wraper .item_left .big_image .small_image {
+        position: absolute;
+        left: -65%;
+        bottom: -34%;
+        height: 80%;
+        width: 82%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    #about_section .about_wraper .item_left .big_image .small_image img{
+        height: 105%;
+
+        
+    }
+    #about_section .about_wraper .item_left .big_image .small_image span{
+        position: absolute;
+    }
+    #about_section .about_wraper .item_left .experience {
+        position: absolute;
+        bottom: -25%;
+        left: 30%;
+    }
+    #about_section .about_wraper .item_left .experience .inner{
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding-left: 25px;
+    }
+    #about_section .about_wraper .item_left .experience .inner::before{
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 110px;
+        background-color: #00c0ff;
+        left: 0;
+    }
+    #about_section .about_wraper .item_left .experience .inner h3{
+        text-align: left;
+        font-size: 72px;
+        color: #fff;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+    #about_section .about_wraper .item_left .experience .inner span{
+        text-align: left;
+        font-size: 22px;
+        color: #fff;
+        line-height: 32px;
+        font-family: "Poppins", sans-serif;
+        padding-left: 20px;
+    }
+    /* -----------------------About section item right css start----------------------- */
+    #about_section .about_wraper .item_right{
+        width: 50%;
+        position: relative;
+        top: 30px;
+        padding-left: 90px;
+    }
+    #about_section .about_wraper .item_right h3{
+        margin-bottom: 35px;
+        
+    }
+    #about_section .about_wraper .item_right .list{
+        width: 100%;
+        float: left;
+        clear: both;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+        border: 2px solid #625a7d;
+    }
+    #about_section .about_wraper .item_right .list >ul{
+        margin: -2px -10px -2px -2px;
+        padding-top: 2px ;
+        padding-left: 2px;
+        
+    }
+    #about_section .about_wraper .item_right .list >ul >li{
+        margin: 0;
+        width: 50%;
+        float: left;
+        border: 2px solid #625a7d;
+        position: relative;
+        overflow: hidden;
+        margin-top: -2px;
+        margin-left: -2px;
+        margin-bottom: -2px;
+        
+    }
+    #about_section .about_wraper .item_right .list .lists{
+        padding: 25px 35px;
+        
+    }
+    #about_section .about_wraper .item_right .list .lists li span{
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+    }
+    #about_section .about_wraper .item_right .list .lists li p{
+        font-size: 16px;
+    }
+    #about_section .about_wraper .item_right .list .lists li a{
+        color: #b4afc6;
+    }
+
+
+ /* -----------------------About section css end----------------------- */
+ /* -----------------------counter section css start----------------------- */
+ #counter_section .main{
+    margin-bottom: 115px;
+ }
+ #counter_section .counter_list ul{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+    }
+    #counter_section .counter_list ul li{   
+        margin-bottom: 50px;
+        width: 24%;
+    }
+    #counter_section .counter_list ul li .inner{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 10px;
+        padding: 75px;
+        display: flex;
+        background: #432d92;
+        justify-content: center;
+        align-items: center;
+    }
+    #counter_section .counter_list ul li .inner h3 span{
+        font-size: 60px;
+        color: #00c0ff;
+        font-weight: 700;
+    }
+    #counter_section .counter_list ul li .inner span{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        padding-left: 26px;
+        display: inline-block;
+    }
+    /* -----------------------counter section css end----------------------- */
+    /* -----------------------skill section css start----------------------- */
+    #skill_section .main .lists{
+        display: flex;
+        margin-top: 47px;
+        margin-bottom: 173px;
+        margin-left: 25px;
+        justify-content: space-between;
+    }
+    #skill_section .main .lists .item_left{
+        width: 50%;
+        padding-right: 67px;
+    }
+    #skill_section .main .lists .item_left:nth-child(2){
+        padding-right: 67px;
+        padding-left: 0 !important;
+    }
+    #skill_section .main .lists h3{
+        margin-bottom: 3px;
+    }
+    #skill_section .main .lists .barfiller{
+        border: none;
+        height: 8px;
+        border-radius: 50px;
+        background: #e7e5f1;
+        margin-bottom: 37px;
+        
+    }
+    #skill_section .main .lists .barfiller .fill{
+        border-radius: 50px;
+        background: #00c0ff !important;
+       
+    }
+    #skill_section .main .lists .barfiller .tip{
+        margin-top: -38px;
+        background: #432d92;
+        color: #00c0ff;
+        border-radius: 2px;
+        
+    }
+    #skill_section .main .lists .item_right{
+        width: 50%;
+        padding-left: 67px;
+    }
+    /* -----------------------skill section css end----------------------- */
+    /* -----------------------service  section css start----------------------- */
+    #service_section .main .lists{
+        margin-top: 70px;
+        margin-bottom: 110px;
+        
+    }
+    #service_section .main .lists ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    #service_section .main .lists ul li{
+        width: 32%;
+        margin-bottom: 25px;
+    }
+    #service_section .main .lists ul li .inner span{
+        display: inline-block;
+        position: relative;
+        width: 65px;
+        height: 65px;
+        border-radius: 100%;
+        background-color: #432d92;
+        margin-bottom: 53px;
+    }
+    #service_section .main .lists ul li .inner span::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 100%;
+        left: 0;
+        transform: scale(0);
+        transition: all .3s ease;
+    }
+    #service_section .main .lists ul li:hover .inner span::before{
+        scale: 1;
+        background-color: #00c0ff;
+        transform: scale(1);
+    }
+    #service_section .main .lists ul li .inner span i{
+        width: 65px;
+        height: 65px;
+        position: absolute;
+        top: -50%;
+        left: -40%;
+        color: #00c0ff;
+        z-index: 2;
+        transition: all .3s ease;
+        font-size: 50px;
+    }
+    #service_section .main .lists ul li:hover .inner span i {
+        font-size: 30px;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 78%;
+        color: #fff;
+    }
+    #service_section .main .lists ul li .inner{
+        width: 100%;
+        height: 100%;
+        clear: both;
+        float: left;
+        position: relative;
+        background-color: #3a2b71;
+        border-radius: 10px;
+        text-align: center;
+        padding: 105px 65px 70px;
+    }
+    #service_section .main .lists ul li .inner h3{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    /* -----------------------service  section css end----------------------- */
+    /* -----------------------resume  section css start----------------------- */
+    #resume_section{
+        margin-bottom: 155px;
+    }
+    #resume_section .item_left .title h3{
+        font-size: 36px;
+        margin-bottom: 60px;
+
+    }
+    #resume_section .main{
+        display: flex;
+        margin-top: 65px;
+    }
+    #resume_section .item_left{
+        width: 50%;
+        padding-right: 50px;
+        position: relative;
+    }
+    #resume_section .item_left .resume_list{
+        position: relative;
+    }
+    #resume_section .item_left .resume_list::after {
+        content: "";
+        position: absolute;
+        left: 36px;
+        top: 0;
+        height: 572px;
+        width: 1px;
+        background: #b4afc6;
+    }
+    #resume_section .item_left ul li{
+        margin-bottom: 50px;
+    }
+    #resume_section .item_left ul li .inner{
+        display: flex;
+        position: relative;
+        padding-left: 107px;
+    }
+    #resume_section .item_left ul li .inner .icon{
+        position: absolute;
+        height: 72px;
+        width: 72px;
+        border-radius: 50%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        display: inline-block;
+        background-color: #00c0ff;
+    }
+    #resume_section .item_left .resume_list .inner .icon i{
+        font-size: 35px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+    #resume_section .item_left .resume_list .inner .resumi_title{
+        margin-bottom: 18px;
+        
+    }
+    #resume_section .item_left .resume_list .inner .resumi_title h3{
+        font-size: 24px;
+        margin-bottom: 13px;
+        display: inline-block;
+    }
+    #resume_section .item_left .resume_list .inner .resumi_title .text{
+        font-size: 16px;
+        color: #b4afc6;
+        font-weight: 400;
+        display: inline-block;
+        padding-left: 8px;
+    }
+    #resume_section .item_left .resume_list .inner .resumi_title h5{
+        margin-bottom: 18px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    
+    /* -----------------------resume  section css end----------------------- */
+    /* -----------------------portfolio  section css start----------------------- */
+    #portfolio_section{
+        margin-bottom: 150px;
+    }
+    #portfolio_section .portfilio_filter{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 55px;
+
+    }
+    #portfolio_section .portfilio_filter ul li{
+        display: inline-block;
+        margin-left: 35px;
+    }
+    #portfolio_section .portfilio_filter ul li:nth-child(1){
+        color: #00c0ff;
+    }
+    #portfolio_section .portfilio_filter ul li a{
+        color: #fff;
+        font-weight: 500;
+        font-family:"Poppins", sans-serif;
+        transition: 0.4s;
+    }
+    #portfolio_section .portfilio_filter ul li a:hover{
+        color: #00c0ff;
+    }
+    #portfolio_section .portfilio_list ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #portfolio_section .portfilio_list ul li {
+        width: 32%;
+        height: 499px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    #portfolio_section .portfilio_list ul li .details span a{
+        color: #b4afc6;
+    }
+    #portfolio_section .portfilio_list ul li .details {
+        position: absolute;
+        bottom: -100px;
+        left: 20px;
+        background: #1e1345;
+        border-radius: 13px;
+        padding: 20px;
+        width: 417px;
+        transition: 0.4s ease;
+        opacity: 0;
+    }
+    #portfolio_section .portfilio_list ul li:hover .details{
+        bottom: 20px;
+        opacity: 1;
+
+    }
+
+    #portfolio_section .portfilio_list ul li .inner img {
+        width: 165%;
+        transform: translate(-168px ,-107px);
+    }
+    #portfolio_section .portfilio_list ul li:nth-child(6) .inner img {
+        width: 974px;
+        transform: translate(-266px ,-3px);
+    }
+    #portfolio_section .portfilio_list ul li:nth-child(3) .inner img {
+        width: 130%;
+        transform: translate(-74px ,-69px);
+    }
+    /* -----------------------portfolio  section css end----------------------- */
+    /* -----------------------Testimonial section css start----------------------- */
+    #testimonial .main{
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 170px;
+    
+    }
+    #testimonial .main .all_wrapper .main{
+        text-align: center;
+    }
+    #testimonial .main .all_wrapper .main .icon i{
+        font-size: 150px;
+        color: #00c0ff;
+        margin-bottom: 35px;
+    }
+    #testimonial .main .all_wrapper .text p{
+        font-size: 30px;
+        font-style: italic;
+        line-height: 1.6;
+        color: #fff;
+        margin-bottom: 60px;
+    }
+    #testimonial .main .all_wrapper .short{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #testimonial .main .all_wrapper .short .imge{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+    }
+    #testimonial .main .all_wrapper .short .imge img{
+        width: 60px;
+    }
+    #testimonial .main .all_wrapper .short .detail{
+        text-align: left;
+        padding-left: 25px;
+    }
+    #testimonial .main .all_wrapper .short .detail h3{
+        font-size: 25px;
+    }
+    #testimonial .main .all_wrapper .short .detail span{
+        font-size: 16px;
+    }
+    #testimonial .main .inner .slick-arrow{
+        font-size: 0;
+        border: 0;
+    }
+    #testimonial .main .inner{
+        position: relative;
+    }
+    #testimonial .main .inner .slick-dots .slick-active button{
+        border: 2px solid #fff;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+    }
+    #testimonial .main .inner ul li button{
+        font-size: 0;
+        border: 0;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background: #00c0ff;
+        transition: 0.4s;
+        
+        
+    }
+    #testimonial .main .inner ul li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    #testimonial .main .inner .slick-dots{
+        position: absolute;
+        left: 50%;
+        display: block;
+        bottom: 0%;
+        transform: translate(-50%);
+
+    }
+    /* -----------------------Testimonial section css end----------------------- */
+    /* -----------------------partners section css start----------------------- */
+    #partner_section{
+        margin-bottom: 160px;
+    }
+    #partner_section .main{
+        padding: 70px 0px;
+        background:  #432d92;
+        border-radius: 12px;
+
+    }
+    #partner_section .main .slider .image{
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+
+    }
+    #partner_section .main .slick-arrow{
+        font-size: 0;
+        border: 0;
+    }
+    /* -----------------------partners section css end----------------------- */
+
+    /* -----------------------blog section css start----------------------- */
+    #blog_section .main{
+        margin-top: 70px;
+        
+    }
+    #blog_section .main ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    #blog_section .main ul li{
+        width: 32%;
+        background:  #432d92;
+        margin-bottom: 50px;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    #blog_section .main ul li .inner .image img{
+        width: 100%;
+    }
+    #blog_section .main ul li .inner .details{
+        padding: 28px 35px;
+
+    }
+    #blog_section .main ul li .inner .details .meta{
+        margin-bottom: 10px;
+    }
+    #blog_section .main ul li .inner .details .meta p{
+        font-size: 16px;
+        
+    }
+    #blog_section .main ul li .inner .details .meta a{
+        padding-right: 7px;
+        font-weight: 700;
+        color: #00c0ff;
+        font-family: "Open Sans", sans-serif;
+    }
+    #blog_section .main ul li .inner .details h3{
+        line-height: 1.4;
+    }
+    #blog_section .main ul li .inner .details a{
+        font-size: 21px;
+        display: inline-block;
+        color: #fff;
+        transition: 0.3s ease;
+        font-weight: 500;
+    }
+    #blog_section .main ul li .inner .details a:hover{
+        color: #00c0ff;
+    }
+    /* -----------------------blog section css end----------------------- */
+    /* -----------------------Contact  section css start----------------------- */
+    #contacet_section .main{
+        margin-top: 80px;
+        margin-bottom: 182px;
+        position: relative;
+        display: flex;
+    }
+    #contacet_section .item_left {
+        width: 50%;
+        padding-right: 50px;
+        position: relative;
+    }
+    #contacet_section .title h3 {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+    #contacet_section .title p{
+        padding: 0 20px 0 0;
+        margin-bottom: 40px;
+    }
+    #contacet_section .main .contact_left{
+        width: 50%;
+    }
+    #contacet_section .main .contact_left ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #contacet_section .main .contact_left li{
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    #contacet_section .main .contact_left li .inner{
+        display: flex;
+        position: relative;
+    }
+    #contacet_section .main .contact_left li .inner .short{
+        margin-left: 80px;
+    }
+    #contacet_section .main .contact_left li:nth-child(2) .inner .short span{
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #contacet_section .main .contact_left li:nth-child(2) .inner .short span:hover{
+        color: #00c0ff;
+    }
+  
+ 
+    #contacet_section .main .contact_left li .inner .short h3{
+        font-size: 30px;
+        margin-bottom: 5px;
+    
+    }
+    #contacet_section .main .contact_left li .inner .icon{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        display: inline-block;
+        background-color: #00c0ff;
+    }
+    #contacet_section .main .contact_left li .inner .icon i{
+        font-size: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+    /* -----------------------Contact  section right css start----------------------- */
+    #contacet_section .main .contact_right{
+        width: 50%;
+    }
+    #contacet_section .main .contact_right li{
+        margin-bottom: 12px;
+        width: 50%;
+        float: left;
+        padding-left: 12px;
+    }
+    #contacet_section .main .contact_right li input{
+        height: 58px;
+        width: 100%;
+        padding: 0 30px;
+        font-size: 18px;
+        border-radius: 8px;
+        outline: none;
+        background-color: rgba(10, 10, 12, 0);
+        color: #b4afc6;
+        border: 1px solid rgba(255,255,255,.3);
+    }
+    #contacet_section .main .contact_right .contact_main .message_area textarea{
+        margin-bottom: 12px;
+        width: 98%;
+        margin-left: 12px;
+        border-radius: 8px;
+        border: 1px solid rgba(255,255,255,.3);
+        height: 200px;
+        padding: 16px 30px 30px;
+        background-color: rgba(10, 10, 12, 0);
+        outline: none;
+        font-size: 18px;
+        color: #b4afc6;
+        resize: none;
+        
+    }
+
+    /* -----------------------Contact  section css end----------------------- */
+    /* -----------------------subscribe  section css start----------------------- */
+#subscribe_section .main{
+    width: 100%;
+    height: auto;
+    /* float: left; */
+    position: relative;
+    background-color: #432d92;
+    display: flex;
+    clear: both;
+    align-items: center;
+    padding: 83px 90px 86px;
+    border-radius: 15px;
+}
+#subscribe_section .main .item_left{
+    width: 50%;
+}
+#subscribe_section .main .item_left span{
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 500;
+    color: #00c0ff;
+    margin-bottom: 5px;
+}
+#subscribe_section .main .item_left h3{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#subscribe_section .main .item_right{
+    width: 50%;
+}
+#subscribe_section .main .item_right .inner{
+    width: 100%;
+    position: relative;
+}
+#subscribe_section .main .item_right .inner input[type="text"]{
+    width: 100%;
+    height: 72px;
+    border-radius: 12px;
+    color: #b4afc6;
+    background: transparent;
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid rgba(255,255,255,.3);
+    
+}
+#subscribe_section .main .item_right .inner input[type="submit"] {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	height: 72px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	color: #fff;
+	background-color: #00c0ff;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 500;
+	padding: 0 35px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+}
+
+/* -----------------------subscribe  section css end----------------------- */
+/* -----------------------copyright  section css start----------------------- */
+#copyright_section .mainss{
+    padding: 20px 0;
+    text-align: center;
+}
+#copyright_section .mainss a{
+    color: #fff;
+    transition: 0.4s;
+}
+#copyright_section .mainss a:hover{
+    color: #00c0ff;
+}
+/* -----------------------copyright  section css end----------------------- */

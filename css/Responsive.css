@@ -1,0 +1,570 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) and (max-width:575.99px){
+    /* ----------------------------common  Responsive start---------------------------- */
+    .btn a {font-family: 'Poppins', sans-serif;color: #fff !important;padding: 10px 15px;}
+    p {line-height: 25px;}
+    /* ----------------------------header section Responsive start---------------------------- */
+    #header.sticky {padding: 10px 20px;}
+    #header .main .header_link {display: none;}
+    #header .main .logo img {width: 100px;}
+    .icon_bar {position: absolute;right: 5%;}
+    #header .main .dropdown_manu {right: 0%;top:48px;}
+    #header .main .icon_bar i{display: block;}
+    #header .main .icon_bar i:active{ color:#00c0ff; margin-right: 2px;}
+
+    /* ----------------------------banner section Responsive start---------------------------- */
+    #details {margin-top: 80px;}
+    #details .main {flex-wrap: wrap; padding: 0 15px;}
+    #details .main .text {width: 100%;}
+    #details .text h1 {margin-top: 0px;font-size: 43px; margin-bottom: 10px;}
+    #details .text h4 { margin-bottom: 24px;font-size: 15px;}
+    #details .hero { margin: auto; width: 100%;text-align: center;}
+    #details .hero img{width: 90%;}
+    #details .btn {display: none;}
+    /* ----------------------------service section Responsive start---------------------------- */
+    #foliox_section2 .main ul {padding: 0 15px;margin: 50px 0 0 -25px;}
+    #foliox_section2 .main ul li {padding-left: 23px;width: 100%;}
+    #foliox_section2 .main .list_inner {padding: 20px;}
+    #foliox_section2 .main {margin-bottom: 0px;}
+    /* ----------------------------About section Responsive start---------------------------- */
+    .main_title {max-width: 98%;}
+    .main_title h3 {font-size: 24px;}
+    #about_section .about_wraper {flex-wrap: wrap; padding: 0 15px; margin-top: 20px;}
+    #about_section .about_wraper .item_left {width: 100%;}
+    #about_section .about_wraper .item_right {width: 100%;top: 130px; padding-left: 0px;}
+    #about_section .about_wraper .item_left .big_image img { width: 60%;}
+    #about_section .about_wraper .item_left .big_image .small_image {left: 0%;bottom: -30%;height: 80%;width: 51%;}
+    #about_section .about_wraper .item_left .big_image .small_image img {width: 120%;}
+    #about_section .about_wraper .item_left .big_image span i {padding: 12px;font-size: 30px;top: 18%;left: 18%;}
+    #about_section .about_wraper .item_left .experience .inner h3 {font-size: 13px;}
+    #about_section .about_wraper .item_left .experience .inner::before {height: 60px;}
+    #about_section .about_wraper .item_left .experience {top: 91%;left: 54%;margin-top: 43px;}
+    #about_section .about_wraper .item_left .experience .inner {padding-left: 15px;}
+    #about_section .about_wraper .item_left .experience .inner span {font-size: 13px;line-height: 15px; padding-left: 15px;}
+    #about_section .about_wraper .item_right h3 {margin-bottom: 20px;}
+    #about_section .about_wraper .item_right .list .lists {padding: 15px 3px;}
+    #about_section .about_wraper .item_right .list {margin-bottom: 20px;}
+    #about_section {margin-bottom: 145px;}
+
+    /* ----------------------------Counter section Responsive start---------------------------- */
+    #counter_section .counter_list ul {margin-left: 0px;text-align: center;}
+    #counter_section .counter_list ul li .inner h3 span {font-size: 15px;}
+    #counter_section .counter_list ul li {padding-left: 0px;margin-bottom: 0px;width: 25%;}
+    #counter_section .counter_list ul li .inner {border-radius: 1px;flex-wrap: wrap; padding: 10px 0px; flex-direction: column;}
+    #counter_section .counter_list ul li .inner h3 {display: block;}
+    #counter_section .counter_list ul li .inner span {font-size: 14px;padding-left: 0px;display: block; line-height: 15px; margin-top: 5px;}
+    #counter_section .main {margin-bottom: 20px;}
+
+    /* ----------------------------Skill section Responsive start---------------------------- */
+    #skill_section .main .lists {display: flex;margin-top: 20px;margin-bottom: 20px;margin-left: 0px;padding: 0 15px; flex-wrap: wrap;}
+    #skill_section .main .lists .item_left {width: 100%;padding-right: 0px;}
+    #skill_section .main .lists .item_right {width: 100%;padding-left: 0px;}
+    #skill_section .main .lists .barfiller {margin-bottom: 20px; }
+
+    /* ----------------------------Service section Responsive start---------------------------- */
+    #service_section .main .lists {margin-top: 20px;margin-bottom: 20px;}
+    #service_section .main .lists ul {margin-left: 0px;padding: 0 15px;}
+    #service_section .main .lists ul li {padding-left: 0px;width: 100%;margin-bottom: 20px;}
+    #service_section .main .lists ul li .inner {padding: 60px 10px 20px;}
+    #service_section .main .lists ul li .inner span {margin-bottom: 20px;}
+
+    /* ----------------------------resume section Responsive start---------------------------- */
+    #resume_section .main {margin-top: 20px;flex-wrap: wrap; padding: 0 15px;}
+    #resume_section .item_left {width: 100%;padding-right: 0px;position: relative;}
+    #resume_section .item_left .right {width: 100%;padding-right: 0px;position: relative;}
+    #resume_section .item_left .title h3 {font-size: 24px;margin-bottom: 20px;}
+    #resume_section .item_left ul li .inner {padding-left: 90px;}
+    #resume_section .item_left ul li {margin-bottom: 20px;}
+    #resume_section {margin-bottom: 20px;}
+
+    /* ----------------------------Portfolio section Responsive start---------------------------- */
+    
+    #portfolio_section .portfilio_filter {margin-top: 20px;margin-bottom: 20px;}
+    #portfolio_section .portfilio_filter ul li {display: inline-block; margin-left: 5px;}
+    #portfolio_section .portfilio_list ul li { width: 100%;margin-left: 0px;margin-bottom: 20px; height: 350px;}
+    #portfolio_section .portfilio_list ul {padding: 0 15px;}
+    #portfolio_section .portfilio_list ul li .inner img {width: 200%;}
+    #portfolio_section .portfilio_list ul li .details {width: 90%; margin: auto;text-align: center; left: 0px; left: 5%;}
+    #portfolio_section {margin-bottom: 20px;}
+
+    /* ----------------------------Testiomonia section Responsive start---------------------------- */
+    #testimonial .main {width: 100%;margin-top: 0px;margin-bottom: 20px; padding: 0 15px;}
+    #testimonial .main .all_wrapper .text p {font-size: 15px;margin-bottom: 20px;}
+    #testimonial .main .all_wrapper .main .icon i {font-size: 80px;margin-bottom: 20px;}
+    #testimonial .main .slick-list.draggable { padding: 0  0px !important;}
+    
+    /* ----------------------------Partner section Responsive start---------------------------- */
+    #partner_section .main {padding: 0px 0px; border-radius: 0px;}
+    #partner_section .slick-slide img {width: 50%;}
+    #partner_section { margin-bottom: 20px;}
+    
+
+    
+    /* ----------------------------blog section Responsive start---------------------------- */
+    #blog_section .main {margin-top: 20px; padding: 0 15px;}
+    #blog_section .main ul {flex-wrap: wrap;}
+    #blog_section .main ul li {width: 100%;margin-left: 0px;margin-bottom: 20px;}
+    #blog_section .main ul li .inner .details {padding: 20px 20px;}
+
+    /* ----------------------------Contact section Responsive start---------------------------- */
+    #contacet_section .main {margin-top: 20px;margin-bottom: 20px;flex-wrap: wrap; padding: 0 15px;}
+    #contacet_section .title h3 {font-size: 24px;margin-bottom: 20px;}
+    #contacet_section .title p {padding: 0px 0px 0 0;margin-bottom: 20px;}
+    #contacet_section .main .contact_left {width: 100%;}
+    #contacet_section .main .contact_left li .inner .short h3 {font-size: 24px;}
+    #contacet_section .main .contact_left li .inner .icon {height: 50px;width: 50px;}
+    #contacet_section .main .contact_left li .inner .short {margin-left: 70px;}
+    #contacet_section .main .contact_right {width: 100%;}
+    #contacet_section .main .contact_left li {margin-bottom: 20px;}
+    #contacet_section .main .contact_right .contact_main .input_list ul{display: flex;flex-wrap: wrap;}
+    #contacet_section .main .contact_right .contact_main .input_list ul li{width: 100%; padding-left: 0;}
+    #contacet_section .main .contact_right li input {height: 40px;padding: 0px 20px;font-size: 15px;}
+    #contacet_section .main .contact_right .contact_main .message_area textarea {height: 150px;padding: 10px 20px 20px;font-size: 15px; margin-left: 0; width: 100%;}
+    
+
+
+    
+    /* ----------------------------subscribtion section Responsive start---------------------------- */
+    #subscribe_section {padding: 0 15px;}
+    #subscribe_section .main {padding: 20px 20px 20px;flex-wrap: wrap;}
+    #subscribe_section .main .item_left {width: 100%;}
+    #subscribe_section .main .item_right {width: 100%; margin-top: 20px;}
+    #subscribe_section .main .item_left h3 {font-size: 24px;}
+    #subscribe_section .main .item_right .inner input[type="text"] {height: 40px;padding-left: 5px;}
+    #subscribe_section .main .item_right .inner input[type="submit"] {height: 40px;font-size: 15px;padding: 0 20px;}
+    #subscribe_section .main .item_right .inner input[type="text"] {height: 40px;border-radius: 12px; color: #b4afc6;padding-left: 5px;background: transparent; border: 1px solid rgba(255,255,255,.3);}
+
+    
+    /* ----------------------------copyright section Responsive start---------------------------- */
+    #copyright_section .mainss {padding: 20px 0;}
+}
+
+/* ------------------------Small devices (landscape phones, less than 768px)------------------------ */
+@media (min-width: 576px) and (max-width:767.99px){
+    .btn a {font-family: 'Poppins', sans-serif;color: #fff !important;padding: 10px 15px;}
+    p {line-height: 25px;}
+    /* ----------------------------header section Responsive start---------------------------- */
+    #header.sticky {padding: 10px 20px;}
+    #header .main .header_link {display: none;}
+    #header .main .logo img {width: 100px;}
+    .icon_bar {position: absolute;right: 5%;}
+    #header .main .dropdown_manu {right: 0%;top:48px;}
+    #header .main .icon_bar i{display: block;}
+    #header .main .icon_bar i:active{ color:#00c0ff; margin-right: 2px;}
+
+    /* ----------------------------banner section Responsive start---------------------------- */
+    #details {margin-top: 80px;}
+    #details .main {flex-wrap: wrap; padding: 0 15px;}
+    #details .main .text {width: 48%;}
+    #details .text h1 {margin-top: 0px;font-size: 43px; margin-bottom: 10px;}
+    #details .text h4 { margin-bottom: 24px;font-size: 15px;}
+    #details .hero { margin: auto; width: 48%;text-align: center;}
+    #details .hero img{width: 90%;}
+    /* ----------------------------service section Responsive start---------------------------- */
+    #foliox_section2 .main ul {padding: 0 15px;margin: 50px 0 0 -25px;}
+    #foliox_section2 .main ul li {width: 50%;}
+    #foliox_section2 .main .list_inner {padding: 20px;}
+    #foliox_section2 .main {margin-bottom: 0px;}
+    /* ----------------------------About section Responsive start---------------------------- */
+    .main_title {max-width: 98%;}
+    .main_title h3 {font-size: 24px;}
+    #about_section .about_wraper {flex-wrap: wrap; padding: 0 15px; margin-top: 20px;}
+    #about_section .about_wraper .item_left {width: 50%;}
+    #about_section .about_wraper .item_right {width: 50%;top: 30px; padding-left: 10px;}
+    #about_section .about_wraper .item_left .big_image img { width: 60%;}
+    #about_section .about_wraper .item_left .big_image .small_image {left: 0%;bottom: -30%;height: 80%;width: 51%;}
+    #about_section .about_wraper .item_left .big_image .small_image img {width: 120%;}
+    #about_section .about_wraper .item_left .big_image span i {padding: 12px;font-size: 30px;top: 18%;left: 18%;}
+    #about_section .about_wraper .item_left .experience .inner h3 {font-size: 13px;}
+    #about_section .about_wraper .item_left .experience .inner::before {height: 60px;}
+    #about_section .about_wraper .item_left .experience {top: 91%;left: 54%;margin-top: 43px;}
+    #about_section .about_wraper .item_left .experience .inner {padding-left: 15px;}
+    #about_section .about_wraper .item_left .experience .inner span {font-size: 13px;line-height: 15px; padding-left: 15px;}
+    #about_section .about_wraper .item_right h3 {margin-bottom: 20px;}
+    #about_section .about_wraper .item_right .list .lists {padding: 15px 3px;}
+    #about_section .about_wraper .item_right .list {margin-bottom: 20px;}
+    #about_section {margin-bottom: 145px;}
+
+    /* ----------------------------Counter section Responsive start---------------------------- */
+    #counter_section .counter_list ul {margin-left: 0px;text-align: center;}
+    #counter_section .counter_list ul li .inner h3 span {font-size: 15px;}
+    #counter_section .counter_list ul li {padding-left: 0px;margin-bottom: 0px;width: 25%;}
+    #counter_section .counter_list ul li .inner {border-radius: 1px;flex-wrap: wrap; padding: 10px 0px; flex-direction: column;}
+    #counter_section .counter_list ul li .inner h3 {display: block;}
+    #counter_section .counter_list ul li .inner span {font-size: 14px;padding-left: 0px;display: block; line-height: 15px; margin-top: 5px;}
+    #counter_section .main {margin-bottom: 20px;}
+
+    /* ----------------------------Skill section Responsive start---------------------------- */
+    #skill_section .main .lists {display: flex;margin-top: 20px;margin-bottom: 20px;margin-left: 0px;padding: 0 15px; flex-wrap: wrap;}
+    #skill_section .main .lists .item_left {width: 100%;padding-right: 0px;}
+    #skill_section .main .lists .item_right {width: 100%;padding-left: 0px;}
+    #skill_section .main .lists .barfiller {margin-bottom: 20px; }
+
+    /* ----------------------------Service section Responsive start---------------------------- */
+    #service_section .main .lists {margin-top: 20px;margin-bottom: 20px;}
+    #service_section .main .lists ul {margin-left: 0px;padding: 0 15px;}
+    #service_section .main .lists ul li {padding-left: 0px;width: 48.5%;margin-bottom: 20px;}
+    #service_section .main .lists ul li .inner {padding: 60px 10px 20px;}
+    #service_section .main .lists ul li .inner span {margin-bottom: 20px;}
+
+    /* ----------------------------resume section Responsive start---------------------------- */
+    #resume_section .main {margin-top: 20px;flex-wrap: wrap; padding: 0 15px;}
+    #resume_section .item_left {width: 48%;padding-right: 0px;position: relative;}
+    #resume_section .item_left .right {width: 48%;padding-right: 0px;position: relative;}
+    #resume_section .item_left .title h3 {font-size: 24px;margin-bottom: 20px;}
+    #resume_section .item_left ul li .inner {padding-left: 90px;}
+    #resume_section .item_left ul li {margin-bottom: 20px;}
+    #resume_section {margin-bottom: 20px;}
+
+    /* ----------------------------Portfolio section Responsive start---------------------------- */
+    
+    #portfolio_section .portfilio_filter {margin-top: 20px;margin-bottom: 20px;}
+    #portfolio_section .portfilio_filter ul li {display: inline-block; margin-left: 5px;}
+    #portfolio_section .portfilio_list ul li { width: 48.5%;margin-left: 0px;margin-bottom: 20px; height: 350px;}
+    #portfolio_section .portfilio_list ul {padding: 0 15px;}
+    #portfolio_section .portfilio_list ul li .inner img {width: 200%;}
+    #portfolio_section .portfilio_list ul li .details {width: 90%; margin: auto;text-align: center; left: 0px; left: 5%;}
+    #portfolio_section {margin-bottom: 20px;}
+
+    /* ----------------------------Testiomonia section Responsive start---------------------------- */
+    #testimonial .main {width: 100%;margin-top: 0px;margin-bottom: 20px; padding: 0 15px;}
+    #testimonial .main .all_wrapper .text p {font-size: 15px;margin-bottom: 20px;}
+    #testimonial .main .all_wrapper .main .icon i {font-size: 80px;margin-bottom: 20px;}
+    #testimonial .main .slick-list.draggable { padding: 0  0px !important;}
+    
+    /* ----------------------------Partner section Responsive start---------------------------- */
+    #partner_section .main {padding: 0px 0px; border-radius: 0px;}
+    #partner_section .slick-slide img {width: 50%;}
+    #partner_section { margin-bottom: 20px;}
+    
+
+    
+    /* ----------------------------blog section Responsive start---------------------------- */
+    #blog_section .main {margin-top: 20px; padding: 0 15px;}
+    #blog_section .main ul {flex-wrap: wrap;}
+    #blog_section .main ul li {width: 48.5%;margin-left: 0px;margin-bottom: 20px;}
+    #blog_section .main ul li .inner .details {padding: 20px 20px;}
+
+    /* ----------------------------Contact section Responsive start---------------------------- */
+    #contacet_section .main {margin-top: 20px;margin-bottom: 20px;flex-wrap: wrap; padding: 0 15px;}
+    #contacet_section .title h3 {font-size: 24px;margin-bottom: 20px;}
+    #contacet_section .title p {padding: 0px 0px 0 0;margin-bottom: 20px;}
+    #contacet_section .main .contact_left {width: 48%;}
+    #contacet_section .main .contact_left li .inner .short h3 {font-size: 24px;}
+    #contacet_section .main .contact_left li .inner .icon {height: 50px;width: 50px;}
+    #contacet_section .main .contact_left li .inner .short {margin-left: 70px;}
+    #contacet_section .main .contact_right {width: 48%;}
+    #contacet_section .main .contact_left li {margin-bottom: 20px;}
+    #contacet_section .main .contact_right .contact_main .input_list ul{display: flex;flex-wrap: wrap;}
+    #contacet_section .main .contact_right .contact_main .input_list ul li{width: 100%; padding-left: 0;}
+    #contacet_section .main .contact_right li input {height: 40px;padding: 0px 20px;font-size: 15px;}
+    #contacet_section .main .contact_right .contact_main .message_area textarea {height: 150px;padding: 10px 20px 20px;font-size: 15px; margin-left: 0; width: 100%;}
+    
+
+
+    
+    /* ----------------------------subscribtion section Responsive start---------------------------- */
+    #subscribe_section {padding: 0 15px;}
+    #subscribe_section .main {padding: 20px 20px 20px;flex-wrap: wrap;}
+    #subscribe_section .main .item_left {width: 48%;}
+    #subscribe_section .main .item_right {width: 48%; margin-top: 20px;}
+    #subscribe_section .main .item_left h3 {font-size: 24px;}
+    #subscribe_section .main .item_right .inner input[type="text"] {height: 40px;padding-left: 5px;}
+    #subscribe_section .main .item_right .inner input[type="submit"] {height: 40px;font-size: 15px;padding: 0 20px;}
+    #subscribe_section .main .item_right .inner input[type="text"] {height: 40px;border-radius: 12px; color: #b4afc6;padding-left: 5px;background: transparent; border: 1px solid rgba(255,255,255,.3);}
+
+    
+    /* ----------------------------copyright section Responsive start---------------------------- */
+    #copyright_section .mainss {padding: 20px 0;}
+}
+
+/* ------------------------Medium devices (tablets, less than 992px)------------------------ */
+@media (min-width: 768px) and (max-width:991.99px){
+    .btn a {font-family: 'Poppins', sans-serif;color: #fff !important;padding: 10px 15px;}
+    p {line-height: 25px;}
+    /* ----------------------------header section Responsive start---------------------------- */
+    #header.sticky {padding: 10px 20px;}
+    #header .main .header_link {display: none;}
+    #header .main .logo img {width: 100px;}
+    .icon_bar {position: absolute;right: 5%;}
+    #header .main .dropdown_manu {right: 0%;top:48px;}
+    #header .main .icon_bar i{display: block;}
+    #header .main .icon_bar i:active{ color:#00c0ff; margin-right: 2px;}
+
+    /* ----------------------------banner section Responsive start---------------------------- */
+    #details {margin-top: 80px;}
+    #details .main {flex-wrap: wrap; padding: 0 40px;}
+    #details .main .text {width: 48%;}
+    #details .text h1 {margin-top: 0px;font-size: 80px; margin-bottom: 100px;}
+    #details .text h4 { margin-bottom: 24px;font-size: 20px;}
+    #details .hero { margin: auto; width: 48%;text-align: center;}
+    #details .hero img{width: 90%;}
+    /* ----------------------------service section Responsive start---------------------------- */
+    #foliox_section2 .main ul {padding: 0 15px;margin: 50px 0 0 -25px;}
+    #foliox_section2 .main ul li {width: 50%;}
+    #foliox_section2 .main .list_inner {padding: 20px;}
+    #foliox_section2 .main {margin-bottom: 0px;}
+    /* ----------------------------About section Responsive start---------------------------- */
+    .main_title {max-width: 98%;}
+    .main_title h3 {font-size: 24px;}
+    #about_section .about_wraper {flex-wrap: wrap; padding: 0 15px; margin-top: 20px;}
+    #about_section .about_wraper .item_left {width: 50%;}
+    #about_section .about_wraper .item_right {width: 50%;top: 30px; padding-left: 10px;}
+    #about_section .about_wraper .item_left .big_image img { width: 60%;}
+    #about_section .about_wraper .item_left .big_image .small_image {left: 0%;bottom: -30%;height: 80%;width: 51%;}
+    #about_section .about_wraper .item_left .big_image .small_image img {width: 120%;}
+    #about_section .about_wraper .item_left .big_image span i {padding: 12px;font-size: 30px;top: 18%;left: 18%;}
+    #about_section .about_wraper .item_left .experience .inner h3 {font-size: 13px;}
+    #about_section .about_wraper .item_left .experience .inner::before {height: 60px;}
+    #about_section .about_wraper .item_left .experience {top: 91%;left: 54%;margin-top: 43px;}
+    #about_section .about_wraper .item_left .experience .inner {padding-left: 15px;}
+    #about_section .about_wraper .item_left .experience .inner span {font-size: 13px;line-height: 15px; padding-left: 15px;}
+    #about_section .about_wraper .item_right h3 {margin-bottom: 20px;}
+    #about_section .about_wraper .item_right .list .lists {padding: 15px 3px;}
+    #about_section .about_wraper .item_right .list {margin-bottom: 20px;}
+    #about_section {margin-bottom: 145px;}
+
+    /* ----------------------------Counter section Responsive start---------------------------- */
+    #counter_section .counter_list ul {margin-left: 0px;text-align: center;}
+    #counter_section .counter_list ul li .inner h3 span {font-size: 40px;}
+    #counter_section .counter_list ul li {margin-bottom: 30px;width: 24%;}
+    #counter_section .counter_list ul li .inner {border-radius: 1px;flex-wrap: wrap; padding: 50px 0px; flex-direction: column;}
+    #counter_section .counter_list ul li .inner h3 {display: block;}
+    #counter_section .counter_list ul li .inner span {font-size: 14px;padding-left: 0px;display: block; line-height: 15px; margin-top: 20px;}
+    #counter_section .main {margin-bottom: 20px; padding: 0 15px;}
+
+    /* ----------------------------Skill section Responsive start---------------------------- */
+    #skill_section .main .lists {display: flex;margin-top: 20px;margin-bottom: 20px;margin-left: 0px;padding: 0 15px; flex-wrap: wrap;}
+    #skill_section .main .lists .item_left {width: 48%;padding-right: 0px;}
+    #skill_section .main .lists .item_right {width: 48%;padding-left: 0px;}
+    #skill_section .main .lists .barfiller {margin-bottom: 20px; }
+
+    /* ----------------------------Service section Responsive start---------------------------- */
+    #service_section .main .lists {margin-top: 20px;margin-bottom: 20px;}
+    #service_section .main .lists ul {margin-left: 0px;padding: 0 15px;}
+    #service_section .main .lists ul li {padding-left: 0px;width: 48.5%;margin-bottom: 20px;}
+    #service_section .main .lists ul li .inner {padding: 60px 10px 20px;}
+    #service_section .main .lists ul li .inner span {margin-bottom: 20px;}
+
+    /* ----------------------------resume section Responsive start---------------------------- */
+    #resume_section .main {margin-top: 20px;flex-wrap: wrap; padding: 0 15px;}
+    #resume_section .item_left {width: 48%;padding-right: 0px;position: relative;}
+    #resume_section .item_left .right {width: 48%;padding-right: 0px;position: relative;}
+    #resume_section .item_left .title h3 {font-size: 24px;margin-bottom: 20px;}
+    #resume_section .item_left ul li .inner {padding-left: 90px;}
+    #resume_section .item_left ul li {margin-bottom: 20px;}
+    #resume_section {margin-bottom: 20px;}
+
+    /* ----------------------------Portfolio section Responsive start---------------------------- */
+    
+    #portfolio_section .portfilio_filter {margin-top: 20px;margin-bottom: 20px;}
+    #portfolio_section .portfilio_filter ul li {display: inline-block; margin-left: 5px;}
+    #portfolio_section .portfilio_list ul li { width: 48.5%;margin-left: 0px;margin-bottom: 20px; height: 350px;}
+    #portfolio_section .portfilio_list ul {padding: 0 15px;}
+    #portfolio_section .portfilio_list ul li .inner img {width: 200%;}
+    #portfolio_section .portfilio_list ul li .details {width: 90%; margin: auto;text-align: center; left: 0px; left: 5%;}
+    #portfolio_section {margin-bottom: 20px;}
+
+    /* ----------------------------Testiomonia section Responsive start---------------------------- */
+    #testimonial .main {width: 100%;margin-top: 0px;margin-bottom: 20px; padding: 0 15px;}
+    #testimonial .main .all_wrapper .text p {font-size: 15px;margin-bottom: 20px;}
+    #testimonial .main .all_wrapper .main .icon i {font-size: 120px;margin-bottom: 20px;}
+    #testimonial .main .slick-list.draggable { padding: 0  0px !important;}
+    
+    /* ----------------------------Partner section Responsive start---------------------------- */
+    #partner_section .main {padding: 0px 0px; border-radius: 0px;}
+    #partner_section .slick-slide img {width: 50%;}
+    #partner_section { margin-bottom: 20px;}
+    
+
+    
+    /* ----------------------------blog section Responsive start---------------------------- */
+    #blog_section .main {margin-top: 20px; padding: 0 15px;}
+    #blog_section .main ul {flex-wrap: wrap;}
+    #blog_section .main ul li {width: 48.5%;margin-left: 0px;margin-bottom: 20px;}
+    #blog_section .main ul li .inner .details {padding: 20px 20px;}
+
+    /* ----------------------------Contact section Responsive start---------------------------- */
+    #contacet_section .main {margin-top: 20px;margin-bottom: 20px;flex-wrap: wrap; padding: 0 15px;}
+    #contacet_section .title h3 {font-size: 24px;margin-bottom: 20px;}
+    #contacet_section .title p {padding: 0px 0px 0 0;margin-bottom: 20px;}
+    #contacet_section .main .contact_left {width: 48%;}
+    #contacet_section .main .contact_left li .inner .short h3 {font-size: 24px;}
+    #contacet_section .main .contact_left li .inner .icon {height: 50px;width: 50px;}
+    #contacet_section .main .contact_left li .inner .short {margin-left: 70px;}
+    #contacet_section .main .contact_right {width: 48%;}
+    #contacet_section .main .contact_left li {margin-bottom: 20px;}
+    #contacet_section .main .contact_right .contact_main .input_list ul{display: flex;flex-wrap: wrap;}
+    #contacet_section .main .contact_right .contact_main .input_list ul li{width: 100%; padding-left: 0;}
+    #contacet_section .main .contact_right li input {height: 40px;padding: 0px 20px;font-size: 15px;}
+    #contacet_section .main .contact_right .contact_main .message_area textarea {height: 150px;padding: 10px 20px 20px;font-size: 15px; margin-left: 0; width: 100%;}
+    
+
+
+    
+    /* ----------------------------subscribtion section Responsive start---------------------------- */
+    #subscribe_section {padding: 0 15px;}
+    #subscribe_section .main {padding: 20px 20px 20px;flex-wrap: wrap;}
+    #subscribe_section .main .item_left {width: 48%;}
+    #subscribe_section .main .item_right {width: 48%; margin-top: 20px;}
+    #subscribe_section .main .item_left h3 {font-size: 24px;}
+    #subscribe_section .main .item_right .inner input[type="text"] {height: 40px;padding-left: 5px;}
+    #subscribe_section .main .item_right .inner input[type="submit"] {height: 40px;font-size: 15px;padding: 0 20px;}
+    #subscribe_section .main .item_right .inner input[type="text"] {height: 40px;border-radius: 12px; color: #b4afc6;padding-left: 20px;background: transparent; border: 1px solid rgba(255,255,255,.3);}
+    /* ----------------------------copyright section Responsive start---------------------------- */
+}
+
+ /* ---------------------------Large devices (desktops, less than 1200px)--------------------------- */
+ @media (min-width: 992px) and (max-width:1199.99px){
+    /* ----------------------------banner section Responsive start---------------------------- */
+    #details .main {flex-wrap: wrap; padding: 0 15px;}
+    #details .main .text {width: 48%;}
+    #details .hero { margin: auto; width: 48%;text-align: center;}
+    #details .hero img{width: 90%;}
+
+    /* ----------------------------service section Responsive start---------------------------- */
+    #foliox_section2 .main {padding: 0 15px;}
+    /* ----------------------------About section Responsive start---------------------------- */
+    .main_title {max-width: 98%;}
+    #about_section .about_wraper { padding: 0 15px;}
+    #about_section .about_wraper .item_left .big_image img { width: 70%;}
+    #about_section .about_wraper .item_left .big_image .small_image {left: 0%;bottom: -30%;height: 80%;width: 51%;}
+    #about_section .about_wraper .item_left .big_image .small_image img {width: 120%;}
+    #about_section .about_wraper .item_left .big_image span i {padding: 30px; font-size: 50px;top: 22%;left: 1%;}
+    #about_section .about_wraper .item_left .experience .inner h3 {font-size: 13px;}
+    #about_section .about_wraper .item_left .big_image .small_image {left: -12%;bottom: -38%;height: 80%; width: 55%;}
+    #about_section .about_wraper .item_left .experience {position: absolute;bottom: -28%;left: 45%;}
+    #about_section .about_wraper .item_left .experience {top: 102%;left: 45%;margin-top: 43px;}
+    #about_section .about_wraper .item_left .experience .inner {padding-left: 15px;}
+    #about_section .about_wraper .item_left .experience .inner span {font-size: 13px;line-height: 15px; padding-left: 15px;}
+    #about_section .about_wraper .item_right h3 {margin-bottom: 20px;}
+    #about_section .about_wraper .item_right .list .lists {padding: 15px 3px;}
+    #about_section .about_wraper .item_right .list {margin-bottom: 20px;}
+    #about_section {margin-bottom: 145px;}
+
+    /* ----------------------------Counter section Responsive start---------------------------- */
+
+    #counter_section .counter_list ul li .inner span {font-size: 20px;padding-left: 10px;display: block; line-height: 24px; margin-top: 5px;}
+    #counter_section .main {margin-bottom: 20px; padding: 0 15px;}
+
+    /* ----------------------------Skill section Responsive start---------------------------- */
+    #skill_section .main{padding: 0 15px;}
+    #skill_section .main.lists{margin-left: 0;}
+    #skill_section .main .lists .item_left {width: 48%; padding-right: 0;}
+    #skill_section .main .lists .item_right {width: 48%; padding-left: 0;}
+
+
+    /* ----------------------------Service section Responsive start---------------------------- */
+    #service_section .main{padding: 0 15px;}
+
+    /* ----------------------------resume section Responsive start---------------------------- */
+    #resume_section .main {margin-top: 20px;flex-wrap: wrap; padding: 0 15px;}
+
+    /* ----------------------------Portfolio section Responsive start---------------------------- */
+    
+    #portfolio_section .main{padding: 0 15px;}
+    #portfolio_section .portfilio_list ul li .inner img {width: 217%;}
+    #portfolio_section .portfilio_list ul li:nth-child(3) .inner img {width: 187%;}
+    #portfolio_section .portfilio_list ul li .details {width: 90%; margin: auto;text-align: center; left: 0px; left: 5%;}
+
+    /* ----------------------------Testiomonia section Responsive start---------------------------- */
+    #testimonial .main {width: 100%; padding: 0 15px;}
+    #testimonial .main .all_wrapper .text p {font-size: 20px;margin-bottom: 20px;}
+    #testimonial .main .all_wrapper .main .icon i {font-size: 150px;margin-bottom: 20px;}
+    #testimonial .main .slick-list.draggable { padding: 0  0px !important;}
+    
+    /* ----------------------------Partner section Responsive start---------------------------- */
+    #partner_section .slick-slide img {width: 50%;}  
+
+    /* ----------------------------blog section Responsive start---------------------------- */
+    #blog_section .main {margin-top: 20px; padding: 0 15px;}
+    #blog_section .main ul {flex-wrap: wrap;}
+    #blog_section .main ul li {width: 48.5%;margin-left: 0px;margin-bottom: 20px;}
+
+    /* ----------------------------Contact section Responsive start---------------------------- */
+    #contacet_section .main {margin-top: 20px;margin-bottom: 20px;flex-wrap: wrap; padding: 0 15px;}
+
+    
+    /* ----------------------------subscribtion section Responsive start---------------------------- */
+    #subscribe_section {padding: 0 15px;}
+    
+    /* ----------------------------copyright section Responsive start---------------------------- */
+    #copyright_section .mainss {padding: 20px 0;}
+}
+
+/* -------------------------X-Large devices (large desktops, less than 1400px)------------------------- */
+@media (min-width: 1200px) and (max-width:3000px){
+
+     /* ----------------------------banner section Responsive start---------------------------- */
+     #details .main {flex-wrap: wrap; padding: 0 15px;}
+     #details .main .text {width: 48%;}
+     #details .hero { margin: auto; width: 48%;text-align: center;}
+     #details .hero img{width: 90%;}
+ 
+     /* ----------------------------service section Responsive start---------------------------- */
+     #foliox_section2 .main {padding: 0 15px;}
+     /* ----------------------------About section Responsive start---------------------------- */
+     .main_title {max-width: 98%;}
+     #about_section .about_wraper { padding: 0 15px;}
+     #about_section .about_wraper .item_left .big_image img { width: 80%;}
+     #about_section .about_wraper .item_left .big_image .small_image {left: 0%;bottom: -30%;height: 80%;width: 51%;}
+     #about_section .about_wraper .item_left .big_image .small_image img {width: 120%;}
+     #about_section .about_wraper .item_left .big_image span i {top: 20%;left: -13%;}
+     #about_section .about_wraper .item_left .experience .inner h3 {font-size: 13px;}
+     #about_section .about_wraper .item_left .big_image .small_image {left: -26%;bottom: -36%;height: 80%;width: 65%;}
+     #about_section .about_wraper .item_left .experience {position: absolute;bottom: -28%;left: 45%;}
+     #about_section .about_wraper .item_left .experience {top: 102%;left: 45%;margin-top: 43px;}
+     #about_section .about_wraper .item_left .experience .inner {padding-left: 15px;}
+     #about_section .about_wraper .item_left .experience .inner span {font-size: 13px;line-height: 15px; padding-left: 15px;}
+     #about_section .about_wraper .item_right h3 {margin-bottom: 20px;}
+     #about_section .about_wraper .item_right .list .lists {padding: 15px 3px;}
+     #about_section .about_wraper .item_right .list {margin-bottom: 20px;}
+     #about_section {margin-bottom: 145px;}
+ 
+     /* ----------------------------Counter section Responsive start---------------------------- */
+ 
+     #counter_section .counter_list ul li .inner span {font-size: 20px;padding-left: 10px;display: block; line-height: 24px; margin-top: 5px;}
+     #counter_section .main {margin-bottom: 20px; padding: 0 15px;}
+ 
+     /* ----------------------------Skill section Responsive start---------------------------- */
+     #skill_section .main{padding: 0 15px;}
+     #skill_section .main .lists {margin-left: 0px;}
+     #skill_section .main .lists .item_left {width: 48%; padding-right: 0;}
+     #skill_section .main .lists .item_right {width: 48%; padding-left: 0;}
+ 
+ 
+     /* ----------------------------Service section Responsive start---------------------------- */
+     #service_section .main{padding: 0 15px;}
+ 
+     /* ----------------------------resume section Responsive start---------------------------- */
+     #resume_section .main {margin-top: 20px;flex-wrap: wrap; padding: 0 15px;}
+ 
+     /* ----------------------------Portfolio section Responsive start---------------------------- */
+     
+     #portfolio_section .main{padding: 0 15px;}
+     #portfolio_section .portfilio_list ul li .inner img {width: 217%;}
+     #portfolio_section .portfilio_list ul li:nth-child(3) .inner img {width: 187%;}
+     #portfolio_section .portfilio_list ul li .details {width: 90%; margin: auto;text-align: center; left: 0px; left: 5%;}
+ 
+     /* ----------------------------Testiomonia section Responsive start---------------------------- */
+     #testimonial .main {width: 100%; padding: 0 15px;}
+     #testimonial .main .slick-list.draggable { padding: 0  0px !important;}
+     
+     /* ----------------------------Partner section Responsive start---------------------------- */
+     #partner_section .slick-slide img {width: 50%;}  
+ 
+     /* ----------------------------blog section Responsive start---------------------------- */
+     #blog_section .main {margin-top: 20px; padding: 0 15px;}
+     #blog_section .main ul {flex-wrap: wrap;}
+     #blog_section .main ul li {width: 48.5%;margin-left: 0px;margin-bottom: 20px;}
+ 
+     /* ----------------------------Contact section Responsive start---------------------------- */
+     #contacet_section .main {margin-top: 20px;margin-bottom: 20px;flex-wrap: wrap; padding: 0 15px;}
+ 
+     
+     /* ----------------------------subscribtion section Responsive start---------------------------- */
+     #subscribe_section {padding: 0 15px;}
+     
+     /* ----------------------------copyright section Responsive start---------------------------- */
+     #copyright_section .mainss {padding: 20px 0;}
+ }
